@@ -76,7 +76,7 @@ import chromadb
 # On Render: reads from environment variables set in the dashboard
 # python-dotenv silently does nothing if .env doesn't exist (safe in production)
 load_dotenv()
-GROQ_API_KEY = os.getenv("groq_api_key")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Absolute path to the _data/ folder, resolved relative to this file.
 # Using __file__ ensures this works regardless of what directory you
