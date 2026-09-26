@@ -55,7 +55,7 @@ collection. No external database needed — everything resets on each restart.
 ## Prerequisites
 
 - Python 3.11+
-- A Groq API key — free at https://console.groq.com
+- An API key 
 - Git
 
 ---
